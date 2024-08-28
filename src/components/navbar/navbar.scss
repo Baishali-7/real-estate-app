@@ -3,5 +3,27 @@ nav{
     justify-content: space-between ;
     align-items: center;
     height: 100px;
+
+    .left{
+        flex: 3;
+       
+        .logo{
+            font-weight: bold;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .img{
+                width: 28px;
+            }
+        }
+    }
+    
+    .right{
+        flex: 2;
+        
+    }
+    
 }
 
